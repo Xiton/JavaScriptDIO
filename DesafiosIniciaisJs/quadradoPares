@@ -1,0 +1,29 @@
+function quadradoPares(){
+    try{
+        let lines = 10; //gets().split('\n');
+        var N = 1999;//parseInt(lines.shift());
+
+        //A entrada contém um valor inteiro N (5 < N < 2000).
+        if ((N > 5) && (N < 2000))
+        {
+            for (let i = 1; i <= N; i++) {   
+            //TODO: Complete os espaços em branco com uma possível solução para o desafio
+                if (i % 2 ===  0  ) {
+                    //console.log(`${i}^2`);
+                    //console.log(`${i}`**2); // = ${i^2}`);
+                    console.log(`${i}^2 = `+`${i}`**2);      
+                    print(`${i}^2 = `+`${i}`**2);       
+                }
+            }
+        }
+        else
+        {
+            console.log("Valor fora do intervalo permitido");
+        }
+    }
+    catch
+    {
+        console.log("Erro nos parâmetros");
+    }
+}
+quadradoPares();
