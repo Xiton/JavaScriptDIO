@@ -115,3 +115,15 @@ Esta atividade tem como objetivo que você veja **no console do seu navegador** 
    1. Importe as funções do arquivo `funcoes`;
    2. Faça a chamada de todas elas;
 6. Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.
+
+## Manipulando o DOM
+
+Projeto referente ao curso "Manipulando o DOM" .
+
+### Atividade: Light Mode/Dark Mode
+
+1. Crie uma estrutura básica de projeto front-end (HTML, CSS e JS)
+2. Copie o HTML e o CSS deste repositório
+3. Crie um arquivo chamado `scripts.js` na sua pasta `assets/js`
+4. Selecione os elementos: `h1`, `button`, `footer` e `body`
+5. Se os elementos possuirem a classe `dark-mode`, modifique seus estilos. Caso contrário, volte os estilos para o original
